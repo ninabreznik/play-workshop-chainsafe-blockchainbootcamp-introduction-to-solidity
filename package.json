@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "workshop-create-workshop",
+  "version": "0.0.0",
+  "description": "workshop for learning how to make a workshop",
+  "scripts": {
+    "start": "budo index.js:bundle.js --dir . --title $npm_package_name --ssl --live --open",
+    "build": "browserify index.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereum-play/workshop-workshop.git"
+  },
+  "keywords": [
+    "workshop",
+    "workshopping",
+    "play",
+    "tutorial"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethereum-play/workshop-workshop/issues"
+  },
+  "homepage": "https://github.com/ethereum-play/workshop-workshop#readme",
+  "devDependencies": {
+    "budo": "^11.6.1"
+  },
+  "dependencies": {
+    "play-workshop": "^0.2.2"
+  }
+}

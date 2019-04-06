@@ -1,10 +1,3 @@
-# workshop-workshop
-workshop for learning how to make a workshop
-
-https://ethereum-play.github.io/wokrshop-workshop
-
-# example `workshop.json`
-```js
 {
   "title": "Blockchain bootcamp",
   "icon": "https://chainsafe.io/assets/images/ChainSafe_logo.png",
@@ -36,4 +29,3 @@ https://ethereum-play.github.io/wokrshop-workshop
   "unlocks": [
   ]
 }
-```
