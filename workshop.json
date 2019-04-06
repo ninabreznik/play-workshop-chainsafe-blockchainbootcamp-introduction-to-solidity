@@ -6,16 +6,7 @@
   {
     "title": "Intro",
     "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vQd3kIGyDqGFnwlpybcLny_ASUcj3sH9DSeW45FoGZ6DaiEfVEvXvsvyxdutZRn63BZv3GjP8IPILPJ/embed?start=true&loop=true&delayms=60000",
-    "info": [
-      "My name is Stu Peters and I am a Co-Founder and Director of Business Development ",
-      "at ChainSafe Systems. I am trained in Web Development and a Blockchain enthusiast since 2013. ",
-      "I am passionate about this technology because it’s all built using the open source ethos; ",
-      "because there are no barriers to entry, and everything is handled as transparently as possible.  ",
-      "I will guide you through the basics of blockchain and I hope I will manage to inspire you ",
-      "to join the quest for a more decentralized world! ",
-      "If you have any questions or comments, please ping me on the chat (@stupeters187). ",
-      "Hope you will enjoy the ride."
-    ]
+    "info": "src/lesson1.md"
   },{
     "title": "Cryptoeconomics",
     "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vSVDAhuB7PM3E9q9ZRROXhxI-qLCZ7Wc4stdCU69lIiQUmy9zHmhyB_SSAz-TzkXr2HP2pLlce8R29N/embed?start=true&loop=true&delayms=60000",
