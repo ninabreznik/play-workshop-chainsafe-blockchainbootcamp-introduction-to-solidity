@@ -1,28 +1,77 @@
 {
-  "title": "Create Ethereum Play workshop",
-  "icon": "https://i.imgur.com/Ph0WP2l.png",
-  "chat": "https://gitter.im/ethereum/play/~embed",
+  "title": "Blockchain bootcamp",
+  "icon": "https://chainsafe.io/assets/images/ChainSafe_logo.png",
+  "chat": "https://gitter.im/wizardamigosinstitute/program/~embed",
   "lessons": [
   {
-    "title": "Step-by-step tutorial for creating workshops",
-    "lesson": "//slides.com/ninabreznik/deck-17/embed",
+    "title": "Intro",
+    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vQd3kIGyDqGFnwlpybcLny_ASUcj3sH9DSeW45FoGZ6DaiEfVEvXvsvyxdutZRn63BZv3GjP8IPILPJ/embed?start=true&loop=true&delayms=60000",
     "info": [
-      "In this step by step tutorial we will walk you through every little step ",
-      "you will need to do to create your own workshop. ",
-      "",
-      "Ethereum Play is a p2p protocol for creating decentralized education materials. ",
-      "Every workshop is connected to other workshop through `needs` and `unlocks` ",
-      "defined in a workshop.json file and published on a skill tree that guides learners ",
-      "through wast resources and help them on the journey to learn about the ecosystem so  ",
-      "they can later actively co-create the future we want to live in.  ",
-      "",
-      "If you have any questions or comments, please click the chat tab and let us know ",
-      "how we can help you! "
+      "My name is Stu Peters and I am a Co-Founder and Director of Business Development ",
+      "at ChainSafe Systems. I am trained in Web Development and a Blockchain enthusiast since 2013. ",
+      "I am passionate about this technology because it’s all built using the open source ethos; ",
+      "because there are no barriers to entry, and everything is handled as transparently as possible.  ",
+      "I will guide you through the basics of blockchain and I hope I will manage to inspire you ",
+      "to join the quest for a more decentralized world! ",
+      "If you have any questions or comments, please ping me on the chat (@stupeters187). ",
+      "Hope you will enjoy the ride."
     ]
+  },{
+    "title": "Cryptoeconomics",
+    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vSVDAhuB7PM3E9q9ZRROXhxI-qLCZ7Wc4stdCU69lIiQUmy9zHmhyB_SSAz-TzkXr2HP2pLlce8R29N/embed?start=true&loop=true&delayms=60000",
+    "tool": "",
+    "info": [
+      "In this lesson, we will take a look at ",
+      "what is this often misunderstood topic called cryptoeconomics!"
+    ]
+  },{
+    "title": "Cryptoeconomic Primitives",
+    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vR3c9ur0G3dYLP9s7TPBMN-emqp-fZPX15CC2HXcuTuFF-PsCAkUPKQU8q3Q0yDhwZCoY56BwkQWaDS/embed?start=true&loop=true&delayms=60000",
+    "tool": "",
+    "info": [
+      "We will talk more about cryptoeconomics ",
+      "with focus on Curation and Prediction markets and Stable Coins."
+     ]
+  },{
+    "title": "Ethereum overview",
+    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vRqN9q1d3bar0kehecQxUx8KcfHN4Ff1TqKturErxFdFxEWVi5ALiafbYs_om7dJp613ACCBtVfl1mb/embed?start=true&loop=true&delayms=60000",
+    "tool": "",
+    "info": [
+      "Ethereum is a decentralized platform designed to run smart contracts. ",
+      "In this lesson I will walk you through the differences between bitcoin and ethereum ",
+      "and I will try to create a nice overview of the Ethereum ecosystem."
+     ]
+  },{
+    "title": "Intro to Solidity",
+    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vQuIspncLifGh2rDRCI3R4h0hpO0pKJiq6xko9IUpRCBv2JGBNf6aAEIxkQ7vmQsPMcD1ud09CFEYx0/embed?start=true&loop=true&delayms=60000",
+    "tool": "https://play.ethereum.org/editor-solidity/",
+    "info": [
+      "Solidity is an object-oriented, high-level language for implementing smart contracts. ",
+      "It was influenced by C++, Python and JavaScript and is designed to target the Ethereum Virtual Machine. ",
+      "Let us take a look how it works and let us try it out in the editor on your right side."
+     ]
+  },{
+    "title": "Smart contracts, storage, oracles",
+    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vScSI3V6YlCSNLGbnDY0n2vaObR_Nk-DnFxmqPWrh9Cqc4vORHafm7oKihscKxSJuYhJMTE11xY6L6N/embed?start=true&loop=true&delayms=60000",
+    "tool": "",
+    "info": [
+      "We will take a look at how to store data in a decentralized ecosystem ",
+      "and how to access the context from the outside world to the smart contracts."
+     ]
+  },{
+    "title": "Dapp overview and use cases",
+    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vT71W6HLWZM25t_DwWnxcX-nITzCpAkry3E626z6tE0DoUnraZXBFFktGMmIwgiQ6WeaddDhw6Lpgr9/embed?start=true&loop=true&delayms=60000",
+    "tool": "",
+    "info": [
+      "We will learn about what are Dapps (decentralized apps), how are they built ",
+      "and then we will also take a look at some examples."
+     ]
   }
  ],
   "needs": [
+    ""
   ],
   "unlocks": [
+    "https://ninabreznik.github.io/play-workshop-remix/"
   ]
 }
