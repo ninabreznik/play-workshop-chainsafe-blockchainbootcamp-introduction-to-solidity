@@ -9,6 +9,6 @@ Learning resources, published somewhere online:
   - articles on a web page, 
   - images on imgur.com etc.
 
-[SEE THE TUTORIAL](https://slides.com/ninabreznik/deck-17)
+[=> SEE THE TUTORIAL](https://slides.com/ninabreznik/deck-17)
 
 
