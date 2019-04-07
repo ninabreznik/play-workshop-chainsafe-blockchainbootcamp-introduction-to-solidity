@@ -2,7 +2,7 @@
 ## My name is Stu Peters and I am a Co-Founder and Director of Business Development at ChainSafe Systems.
 
 
-I am passionate about this technology:
+I am passionate about the blockchain technology:
 * because it’s all built using the open source ethos;
 * because there are no barriers to entry
 * and because everything is handled as transparently as possible.

@@ -1,67 +1,219 @@
 {
-  "title": "Blockchain bootcamp",
+  "title": "Blockchain bootcamp - Introduction workshop",
   "icon": "https://chainsafe.io/assets/images/ChainSafe_logo.png",
   "chat": "https://gitter.im/wizardamigosinstitute/program/~embed",
   "lessons": [
   {
     "title": "Intro",
-    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vQd3kIGyDqGFnwlpybcLny_ASUcj3sH9DSeW45FoGZ6DaiEfVEvXvsvyxdutZRn63BZv3GjP8IPILPJ/embed?start=true&loop=true&delayms=60000",
-    "info": "src/lesson1.md"
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/",
+    "info": "src/info.md"
   },{
-    "title": "Cryptoeconomics",
-    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vSVDAhuB7PM3E9q9ZRROXhxI-qLCZ7Wc4stdCU69lIiQUmy9zHmhyB_SSAz-TzkXr2HP2pLlce8R29N/embed?start=true&loop=true&delayms=60000",
-    "tool": "",
-    "info": [
-      "In this lesson, we will take a look at ",
-      "what is this often misunderstood topic called cryptoeconomics!"
-    ]
+    "title": "Welcome",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/1",
+    "info": "src/info.md"
   },{
-    "title": "Cryptoeconomic Primitives",
-    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vR3c9ur0G3dYLP9s7TPBMN-emqp-fZPX15CC2HXcuTuFF-PsCAkUPKQU8q3Q0yDhwZCoY56BwkQWaDS/embed?start=true&loop=true&delayms=60000",
-    "tool": "",
-    "info": [
-      "We will talk more about cryptoeconomics ",
-      "with focus on Curation and Prediction markets and Stable Coins."
-     ]
+    "title": "About me",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/2",
+    "info": "src/info.md"
   },{
-    "title": "Ethereum overview",
-    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vRqN9q1d3bar0kehecQxUx8KcfHN4Ff1TqKturErxFdFxEWVi5ALiafbYs_om7dJp613ACCBtVfl1mb/embed?start=true&loop=true&delayms=60000",
-    "tool": "",
-    "info": [
-      "Ethereum is a decentralized platform designed to run smart contracts. ",
-      "In this lesson I will walk you through the differences between bitcoin and ethereum ",
-      "and I will try to create a nice overview of the Ethereum ecosystem."
-     ]
+    "title": "Why I like blockchain",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/3",
+    "info": "src/info.md"
   },{
-    "title": "Intro to Solidity",
-    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vQuIspncLifGh2rDRCI3R4h0hpO0pKJiq6xko9IUpRCBv2JGBNf6aAEIxkQ7vmQsPMcD1ud09CFEYx0/embed?start=true&loop=true&delayms=60000",
-    "tool": "https://play.ethereum.org/editor-solidity/",
-    "info": [
-      "Solidity is an object-oriented, high-level language for implementing smart contracts. ",
-      "It was influenced by C++, Python and JavaScript and is designed to target the Ethereum Virtual Machine. ",
-      "Let us take a look how it works and let us try it out in the editor on your right side."
-     ]
+    "title": "Decentralization",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/4",
+    "info": "src/info.md"
   },{
-    "title": "Smart contracts, storage, oracles",
-    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vScSI3V6YlCSNLGbnDY0n2vaObR_Nk-DnFxmqPWrh9Cqc4vORHafm7oKihscKxSJuYhJMTE11xY6L6N/embed?start=true&loop=true&delayms=60000",
-    "tool": "",
-    "info": [
-      "We will take a look at how to store data in a decentralized ecosystem ",
-      "and how to access the context from the outside world to the smart contracts."
-     ]
+    "title": "Centralized vs decentralized vs distributed",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/5",
+    "info": "src/info.md"
   },{
-    "title": "Dapp overview and use cases",
-    "lesson": "https://docs.google.com/presentation/d/e/2PACX-1vT71W6HLWZM25t_DwWnxcX-nITzCpAkry3E626z6tE0DoUnraZXBFFktGMmIwgiQ6WeaddDhw6Lpgr9/embed?start=true&loop=true&delayms=60000",
-    "tool": "",
-    "info": [
-      "We will learn about what are Dapps (decentralized apps), how are they built ",
-      "and then we will also take a look at some examples."
-     ]
+    "title": "Decentralized networks",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/6",
+    "info": "src/info.md"
+  },{
+    "title": "No need for third party",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/7",
+    "info": "src/info.md"
+  },{
+    "title": "No single point of failure",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/8",
+    "info": "src/info.md"
+  },{
+    "title": "Cenzorship resistance",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/9",
+    "info": "src/info.md"
+  },{
+    "title": "Open source",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/10",
+    "info": "src/info.md"
+  },{
+    "title": "Network as public good",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/11",
+    "info": "src/info.md"
+  },{
+    "title": "Meritocratic network",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/12",
+    "info": "src/info.md"
+  },{
+    "title": "Democratic network",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/13",
+    "info": "src/info.md"
+  },{
+    "title": "Bitcoin under the hood",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/15",
+    "info": "src/info.md"
+  },{
+    "title": "Bitcoin - technical overview",
+    "lesson": "https://www.youtube.com/embed/Lx9zgZCMqXE",
+    "info": "src/info.md"
+  },{
+    "title": "Scarcity and transparency",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/16",
+    "info": "src/info.md"
+  },{
+    "title": "Bitcoin - inside of a transaction",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/17",
+    "info": "src/info.md"
+  },{
+    "title": "Blocks",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/18",
+    "info": "src/info.md"
+  },{
+    "title": "Bitcoin vs banks",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/19",
+    "info": "src/info.md"
+  },{
+    "title": "Trustlesness",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/20",
+    "info": "src/info.md"
+  },{
+    "title": "Public Key Cryptography",
+    "lesson": "https://www.youtube.com/embed/3QnD2c4Xovk",
+    "info": "src/info.md"
+  },{
+    "title": "Private an public keys",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/21",
+    "info": "src/info.md"
+  },{
+    "title": "Valid transaction (tx)",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/22",
+    "info": "src/info.md"
+  },{
+    "title": "Account balances",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/23",
+    "info": "src/info.md"
+  },{
+    "title": "Trusting previous tx",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/24",
+    "info": "src/info.md"
+  },{
+    "title": "Inputs",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/25",
+    "info": "src/info.md"
+  },{
+    "title": "Complex tx",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/26",
+    "info": "src/info.md"
+  },{
+    "title": "Pseudonymity",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/27",
+    "info": "src/info.md"
+  },{
+    "title": "Hierarchical deterministic wallets",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/28",
+    "info": "src/info.md"
+  },{
+    "title": "Public/private key creation",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/29",
+    "info": "src/info.md"
+  },{
+    "title": "Generating key pairs",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/30",
+    "info": "src/info.md"
+  },{
+    "title": "Bitcoin recap",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/31",
+    "info": "src/info.md"
+  },{
+    "title": "Potential security vulnerability",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/32",
+    "info": "src/info.md"
+  },{
+    "title": "Generating new block",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/33",
+    "info": "src/info.md"
+  },{
+    "title": "Block puzzle",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/34",
+    "info": "src/info.md"
+  },{
+    "title": "SHA256",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/35",
+    "info": "src/info.md"
+  },{
+    "title": "Bitcoin computing",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/36",
+    "info": "src/info.md"
+  },{
+    "title": "New block every 10min",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/37",
+    "info": "src/info.md"
+  },{
+    "title": "Miners",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/38",
+    "info": "src/info.md"
+  },{
+    "title": "Mining",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/39",
+    "info": "src/info.md"
+  },{
+    "title": "Mining and attacks - 1",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/40",
+    "info": "src/info.md"
+  },{
+    "title": "Mining and attacks - 2",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/41",
+    "info": "src/info.md"
+  },{
+    "title": "Bitcoin - a visual demo",
+    "lesson": "https://www.youtube.com/embed/_160oMzblY8",
+    "info": "src/info.md"
+  },{
+    "title": "Public/ private keys and signing",
+    "lesson": "https://www.youtube.com/embed/xIDL_akeras",
+    "info": "src/info.md"
+  },{
+    "title": "Bitcoin generation - The Coinbase",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/43",
+    "info": "src/info.md"
+  },{
+    "title": "BTC",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/44",
+    "info": "src/info.md"
+  },{
+    "title": "BTC",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/45",
+    "info": "src/info.md"
+  },{
+    "title": "Tx fees",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/46",
+    "info": "src/info.md"
+  },{
+    "title": "Mining pools",
+    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/47",
+    "info": "src/info.md"
+  },{
+    "title": "What's next - Ethereum",
+    "lesson": "https://www.youtube.com/embed/U_LK0t_qaPo",
+    "info": "src/info.md"
+  },{
+    "title": "Ethereum gas, gas limit and gas price",
+    "lesson": "https://www.youtube.com/embed/yFb2nuUUDX0",
+    "info": "src/info.md"
   }
  ],
-  "needs": [
-    ""
-  ],
+  "needs": [],
   "unlocks": [
     "https://ninabreznik.github.io/play-workshop-remix/"
   ]
