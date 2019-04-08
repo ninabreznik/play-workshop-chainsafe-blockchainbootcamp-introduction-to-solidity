@@ -1,219 +1,267 @@
 {
-  "title": "Blockchain bootcamp - Introduction workshop",
+  "title": "Blockchain bootcamp - Intro to Solidity",
   "icon": "https://chainsafe.io/assets/images/ChainSafe_logo.png",
   "chat": "https://gitter.im/wizardamigosinstitute/program/~embed",
   "lessons": [
   {
-    "title": "Intro",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/",
-    "info": "src/info.md"
+    "title": "Solidity",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/1",
+    "info": "src/info/main.md"
   },{
-    "title": "Welcome",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/1",
-    "info": "src/info.md"
+    "title": "Influence",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/2",
+    "info": "src/info/main.md"
   },{
-    "title": "About me",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/2",
-    "info": "src/info.md"
+    "title": "Why Solidity",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/3",
+    "info": "src/info/main.md"
   },{
-    "title": "Why I like blockchain",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/3",
-    "info": "src/info.md"
+    "title": "Contract Structure - State Variables",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/4",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/state-variables.md"
   },{
-    "title": "Decentralization",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/4",
-    "info": "src/info.md"
+    "title": "Contract Structure - Functions ",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/5",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/functions.md"
   },{
-    "title": "Centralized vs decentralized vs distributed",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/5",
-    "info": "src/info.md"
+    "title": "Contract Structure - Function Modifiers",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/6",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/function-modifiers.md"
   },{
-    "title": "Decentralized networks",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/6",
-    "info": "src/info.md"
+    "title": "Contract Structure - Events",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/7",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/events.md"
   },{
-    "title": "No need for third party",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/7",
-    "info": "src/info.md"
+    "title": "Contract Structure - Struct Types",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/8",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/struct-types.md"
   },{
-    "title": "No single point of failure",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/8",
-    "info": "src/info.md"
+    "title": "Contract Structure - Enum Types",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/9",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/enum-types.md"
   },{
-    "title": "Cenzorship resistance",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/9",
-    "info": "src/info.md"
+    "title": "Typed language",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/10",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Open source",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/10",
-    "info": "src/info.md"
+    "title": "Solidity Types",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/11",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Network as public good",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/11",
-    "info": "src/info.md"
+    "title": "Solidity Types - Booleans",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/12",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Meritocratic network",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/12",
-    "info": "src/info.md"
+    "title": "Booleans",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/13",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Democratic network",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/13",
-    "info": "src/info.md"
+    "title": "Solidity Types - Integers",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/14",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Bitcoin under the hood",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/15",
-    "info": "src/info.md"
+    "title": "Integers",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/15",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Bitcoin - technical overview",
-    "lesson": "https://www.youtube.com/embed/Lx9zgZCMqXE",
-    "info": "src/info.md"
+    "title": "Integers - Operators",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/16",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Scarcity and transparency",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/16",
-    "info": "src/info.md"
+    "title": "Solidity Types - Address",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/17",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Bitcoin - inside of a transaction",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/17",
-    "info": "src/info.md"
+    "title": "Address - Operators",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/18",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Blocks",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/18",
-    "info": "src/info.md"
+    "title": "Balance and Transfer",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/19",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Bitcoin vs banks",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/19",
-    "info": "src/info.md"
+    "title": "Address Members",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/20",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/address-members.md"
   },{
-    "title": "Trustlesness",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/20",
-    "info": "src/info.md"
+    "title": "Solidity Types - Fixed-Size Byte Arrays",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/21",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Public Key Cryptography",
-    "lesson": "https://www.youtube.com/embed/3QnD2c4Xovk",
-    "info": "src/info.md"
+    "title": "Fixed-Size Byte Arrays - Operators",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/22",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Private an public keys",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/21",
-    "info": "src/info.md"
+    "title": "Fixed-Size Byte Arrays - Members",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/23",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Valid transaction (tx)",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/22",
-    "info": "src/info.md"
+    "title": "Solidity Types - Dinamically-Sized Byte Arrays",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/24",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Account balances",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/23",
-    "info": "src/info.md"
+    "title": "Solidity Types - Function Types",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/25",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Trusting previous tx",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/24",
-    "info": "src/info.md"
+    "title": "Solidity Types - Arrays",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/26",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Inputs",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/25",
-    "info": "src/info.md"
+    "title": "Array Members - length",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/27",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Complex tx",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/26",
-    "info": "src/info.md"
+    "title": "Array Members - push",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/28",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Pseudonymity",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/27",
-    "info": "src/info.md"
+    "title": "Array Members - pop",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/29",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Hierarchical deterministic wallets",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/28",
-    "info": "src/info.md"
+    "title": "Solidity Types - Structs",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/30",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/structs.md"
   },{
-    "title": "Public/private key creation",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/29",
-    "info": "src/info.md"
+    "title": "Structs - Mapping",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/31",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Generating key pairs",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/30",
-    "info": "src/info.md"
+    "title": "Structs - Copying from Memory to Storage",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/32",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Bitcoin recap",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/31",
-    "info": "src/info.md"
+    "title": "Temporary Memory Structs",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/33",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Potential security vulnerability",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/32",
-    "info": "src/info.md"
+    "title": "Structs - Code Example",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/34",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Generating new block",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/33",
-    "info": "src/info.md"
+    "title": "Solidity Types - Mappings",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/35",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Block puzzle",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/34",
-    "info": "src/info.md"
+    "title": "Mappings as Hash Tables",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/36",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "SHA256",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/35",
-    "info": "src/info.md"
+    "title": "More about Mappings",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/37",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Bitcoin computing",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/36",
-    "info": "src/info.md"
+    "title": "Mappings - Code Example",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/38",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "New block every 10min",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/37",
-    "info": "src/info.md"
+    "title": "Solidity Types - delete",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/39",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Miners",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/38",
-    "info": "src/info.md"
+    "title": "Solidity Global Variables - block",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/40",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Mining",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/39",
-    "info": "src/info.md"
+    "title": "Solidity Global Variables - msg",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/41",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Mining and attacks - 1",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/40",
-    "info": "src/info.md"
+    "title": "Solidity Global Variables - tx",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/42",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Mining and attacks - 2",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/41",
-    "info": "src/info.md"
+    "title": "Solidity Global Variables - this",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/43",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Bitcoin - a visual demo",
-    "lesson": "https://www.youtube.com/embed/_160oMzblY8",
-    "info": "src/info.md"
+    "title": "Solidity Global Variables - assert()",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/44",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Public/ private keys and signing",
-    "lesson": "https://www.youtube.com/embed/xIDL_akeras",
-    "info": "src/info.md"
+    "title": "Solidity Global Variables - require()",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/45",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "Bitcoin generation - The Coinbase",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/43",
-    "info": "src/info.md"
+    "title": "Solidity Global Variables - revert()",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/46",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "BTC",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/44",
-    "info": "src/info.md"
+    "title": "Solidity Global Variables - selfdestruct()",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/47",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": "src/info/main.md"
   },{
-    "title": "BTC",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/45",
-    "info": "src/info.md"
+    "title": "Smart Contract Example - Hello World",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/48",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": ["https://gist.github.com/stupeters187/ca1a504fc252eb0f4053bfd4f4a7db94"]
   },{
-    "title": "Tx fees",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/46",
-    "info": "src/info.md"
+    "title": "Smart Contract Example - Escrow",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/48",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": ["https://gist.github.com/stupeters187/e521f0f5bc940bd841a441957feb297e"]
   },{
-    "title": "Mining pools",
-    "lesson": "https://slides.com/ninabreznik/deck-18/embed/#/47",
-    "info": "src/info.md"
+    "title": "Smart Contract Example - Crowd Funding",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/48",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": ["https://gist.github.com/stupeters187/1dd90d8d0419e40faf6532c56de4ac31"]
   },{
-    "title": "What's next - Ethereum",
-    "lesson": "https://www.youtube.com/embed/U_LK0t_qaPo",
-    "info": "src/info.md"
-  },{
-    "title": "Ethereum gas, gas limit and gas price",
-    "lesson": "https://www.youtube.com/embed/yFb2nuUUDX0",
-    "info": "src/info.md"
+    "title": "Smart Contract Example - Dashboard",
+    "lesson": "https://slides.com/ninabreznik/deck/embed/#/48",
+    "tool": "https://play.ethereum.org/editor-solidity",
+    "info": ["https://gist.github.com/ansermino/caa8f671ca255c605ab7b30742eb5e5e"]
   }
  ],
-  "needs": [],
+  "needs": [
+    "https://ninabreznik.github.io/play-workshop-chainsafe-blockchainbootcamp-introduction"
+  ],
   "unlocks": [
     "https://ninabreznik.github.io/play-workshop-remix/"
   ]
