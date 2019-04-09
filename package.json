@@ -27,6 +27,6 @@
     "budo": "^11.6.1"
   },
   "dependencies": {
-    "play-workshop": "^0.2.2"
+    "play-workshop": "^0.2.5"
   }
 }

@@ -115147,9 +115147,18 @@ var colors = {
   lavenderGrey: "#e3e8ee",
   androidGreen: "#9BC53D"
 }
+
+var font_url = (location.origin.includes('//localhost')
+  || location.origin.includes('//127.0.0.1')
+  || location.origin.includes('//0.0.0.0')
+  || location.origin.includes('//10.0.0')
+  || location.origin.includes('//192.168')) ?
+    '../src/OverpassMono-Regular.ttf'
+    : 'https://github.com/ethereum-play/play-workshop/blob/master/src/OverpassMono-Regular.ttf?raw=true'
+
 module.exports = workshopping.customize({
   theme: {
-    '--font': '../src/OverpassMono-Regular.ttf',
+    '--font': font_url,
     menu_minHeight: '0px',
     menu_height: 'auto',
     menu_border: '0',
@@ -115198,7 +115207,7 @@ module.exports = workshopping.customize({
   }
 })
 
-},{"workshopping":1121}],1117:[function(require,module,exports){
+},{"workshopping":1122}],1117:[function(require,module,exports){
 const faker = require('faker')
 const _ = require('lodash')
 
@@ -115479,6 +115488,25 @@ async function start(rootElemntName, dag_data, id) {
 module.exports = start
 
 },{"d3":58,"d3-dag":33,"faker":59,"lodash":1112}],1118:[function(require,module,exports){
+const cors = 'https://cors-anywhere.herokuapp.com/'
+const absoluteURLregex = /(?:^[a-z][a-z0-9+.-]*:|\/\/)/
+
+module.exports = getURL
+
+function getURL (url) {
+  const isAbsoluteURL = absoluteURLregex.test(url)
+  if (isAbsoluteURL) {
+    const islocalhost = (url.includes('//localhost')
+    || url.includes('//127.0.0.1') || url.includes('//0.0.0.0')
+    || url.includes('//10.0.0') || url.includes('//192.168'))
+    const sameorigin = new URL(url).origin === location.origin
+    return (islocalhost || sameorigin) ? url : cors + url
+  }
+  return url  
+}
+
+},{}],1119:[function(require,module,exports){
+const getURL = require('_get-url')
 /******************************************************************************
   INTERFACE
 ******************************************************************************/
@@ -115503,10 +115531,9 @@ function makeSVGicon (svgURL, callback) {
     const faviconURL = canvas.toDataURL()
     callback(null, faviconURL)
   }
-  var cors = 'https://cors-anywhere.herokuapp.com/'
   img.onerror = event => callback(event)
   img.setAttribute('crossOrigin', 'anonymous')
-  img.setAttribute('src', cors + svgURL)
+  img.setAttribute('src', getURL(svgURL))
 }
 function setFavicon (faviconURL) {
   const favicon =  (favicon => {
@@ -115552,46 +115579,61 @@ const drawTriangles = (ctx, dim) => {
   }
 }
 
-},{}],1119:[function(require,module,exports){
+},{"_get-url":1118}],1120:[function(require,module,exports){
+const get_url = require('_get-url')
 
 module.exports = crawlworkshop
 
 async function crawlworkshop (data, href) {
+  // @TODO: cache workshop data to not fetch it over and over again
+  // @TODO: add robust error handling - e.g. if links are broken
   if (href) {
-    const needs = data.needs.map((x, i) => {
+    const needs = []
+    const unlocks = []
+    for (var i = 0, len = data.needs.length; i < len; i++) {
+      var x = data.needs[i]
       x = x.split('?')[0]
       if (!x.includes('://')) x = 'https://' + x
       if (!x.endsWith('.html') && !x.endsWith('/')) x = x + '/'
-      return {
-        url: new URL('./workshop.json', x).href,
+      var workshop_url = get_url(new URL('./workshop.json', x).href)
+      var workshop = await fetch(workshop_url).then(x => x.json())
+      needs.push({
+        url: new URL(x).href,
         parentIds: [],
-        id: `needs_${i + 1}`, // @TODO: make something unique, like `href + i`?
-        title: `foobar_${i + 1}` // @TODO: fetch from workshop.json
-      }
-    })
-    const unlocks = data.unlocks.map((x, i) => {
+        id: workshop_url,
+        title: workshop.title,
+        icon: get_url(workshop.icon)
+      })
+    }
+    for (var i = 0, len = data.unlocks.length; i < len; i++) {
+      var x = data.unlocks[i]
       x = x.split('?')[0]
       if (!x.includes('://')) x = 'https://' + x
       if (!x.endsWith('.html') && !x.endsWith('/')) x = x + '/'
-      return {
-        url: new URL('./workshop.json', x).href,
-        parentIds: ['0'],
-        id: `unlocks_${i + 1}`, // @TODO: make something unique, like `href + i`?
-        title: `barbaz_${i + 1}` // @TODO: fetch from workshop.json
-      }
-    })
+      var url = new URL(x).href
+      var workshop_url = get_url(new URL('./workshop.json', url).href)
+      var workshop = await fetch(workshop_url).then(x => x.json())
+      unlocks.push({
+        url: url,
+        parentIds: [location.href],
+        id: url,
+        title: workshop.title,
+        icon: get_url(workshop.icon)
+      })
+    }
     return [{
       url: href,
       parentIds: [...needs].map(x => x.id),
+      id: location.href,
       title: data.title,
-      id: '0'
+      icon: get_url(data.icon)
     }, ...needs, ...unlocks]
   } else {
     throw new Error('@TODO: implement "infinite crawling"')
   }
 }
 
-},{}],1120:[function(require,module,exports){
+},{"_get-url":1118}],1121:[function(require,module,exports){
 const skilltree = require('skilltree.js')
 const crawl = require('crawl-workshop')
 const bel = require('bel')
@@ -115613,12 +115655,13 @@ const css = csjs`
   width: 100%;
 }`
 
-},{"bel":3,"crawl-workshop":1119,"csjs-inject":9,"skilltree.js":1117}],1121:[function(require,module,exports){
+},{"bel":3,"crawl-workshop":1120,"csjs-inject":9,"skilltree.js":1117}],1122:[function(require,module,exports){
 const csjs = require('csjs-inject')
 const bel = require('bel') // @TODO: replace with `elb`
 const belmark = require('belmark') // @TODO: replace with `elbmark`
 const skilltree = require('skilltrees')
 
+const getURL = require('_get-url')
 const svg2favicon = require('_svg2favicon')
 
 const CONFIG = default_config()
@@ -115902,12 +115945,12 @@ async function _workshopping ({ config, theme, css }) {
 }
 
 function styles (font_url, theme) {
-  var FONT = font_url.split('/').join('-').split('.').join('_')
+  var FONT = font_url.split('/').join('-').split('.').join('-').split(':').join('-').split('?').join('-').split('=').join('-')
   var font = bel`
     <style>
     @font-face {
       font-family: ${FONT};
-      ${FONT !== font_url ? `src: url('${font_url}');` : ''}
+      ${FONT !== font_url ? `src: url('${getURL(font_url)}');` : ''}
     }
     </style>`
   document.head.appendChild(font)
@@ -116264,4 +116307,4 @@ function default_css () {
   return Object.freeze({ css: '@TODO: make available' })
 }
 
-},{"_svg2favicon":1118,"bel":3,"belmark":5,"csjs-inject":9,"skilltrees":1120}]},{},[1]);
+},{"_get-url":1118,"_svg2favicon":1119,"bel":3,"belmark":5,"csjs-inject":9,"skilltrees":1121}]},{},[1]);
