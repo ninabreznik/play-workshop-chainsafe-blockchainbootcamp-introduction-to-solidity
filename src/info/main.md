@@ -1,29 +1,13 @@
 ## Introduction to Solidity workshop
 
-by Stu Peters, a Co-Founder and Director of Business Development at ChainSafe Systems
-
-In this workshop is an introduction to Solidity.
-We will:
-- get to know how similar and different Solidity is in comparison to other programming languages,
-- learn about the smart contracts,
+In this workshop we will:
+- get to know how similar and different Solidity is compared to other languages,
 - analyse the structure of the contracts,
-- dive deeper into:
-  - state variables,
-  - functions,
-  - function modifiers,
-  - events,
-  - structs,
-  - data types:
-    - enums,
-    - booleans,
-    - integers,
-    - addresses,
-    - arrays,
-    - etc.
-  - mappings,
-  - solidity global Variables
+- dive deeper into: state variables, functions, function modifiers, events, structs, data types etc.
 - check out some contract examples  
 
-I will guide you through the basics of solidity, if you have any questions, feel free to you a chat and ask me or other learners for help!
+If you have any questions, feel free to join the chat where myself, other mentors or learners will be happy to help you out!
 
-Good luck!
+---
+
+_This workshop was created by Stu Peters, a Co-Founder and Director of Business Development at ChainSafe Systems_

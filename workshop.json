@@ -5,256 +5,254 @@
   "lessons": [
   {
     "title": "Solidity",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/1",
+    "lesson": "src/slides/1.html",
     "info": "src/info/main.md"
   },{
     "title": "Influence",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/2",
+    "lesson": "src/slides/2.html",
     "info": "src/info/main.md"
   },{
     "title": "Why Solidity",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/3",
+    "lesson": "src/slides/3.html",
     "info": "src/info/main.md"
   },{
     "title": "Contract Structure - State Variables",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/4",
+    "lesson": "src/slides/4.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/state-variables.md"
   },{
     "title": "Contract Structure - Functions ",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/5",
+    "lesson": "src/slides/5.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/functions.md"
   },{
     "title": "Contract Structure - Function Modifiers",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/6",
+    "lesson": "src/slides/6.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/function-modifiers.md"
   },{
     "title": "Contract Structure - Events",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/7",
+    "lesson": "src/slides/7.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/events.md"
   },{
     "title": "Contract Structure - Struct Types",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/8",
-    "tool": "https://play.ethereum.org/editor-solidity",
+    "lesson": "src/slides/8.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/struct-types.md"
   },{
     "title": "Contract Structure - Enum Types",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/9",
-    "tool": "https://play.ethereum.org/editor-solidity",
+    "lesson": "src/slides/9.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/enum-types.md"
   },{
     "title": "Typed language",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/10",
+    "lesson": "src/slides/10.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Types",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/11",
+    "lesson": "src/slides/11.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Types - Booleans",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/12",
+    "lesson": "src/slides/12.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Booleans",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/13",
+    "lesson": "src/slides/13.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Types - Integers",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/14",
+    "lesson": "src/slides/14.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Integers",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/15",
+    "lesson": "src/slides/15.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Integers - Operators",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/16",
+    "lesson": "src/slides/16.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Types - Address",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/17",
+    "lesson": "src/slides/17.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Address - Operators",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/18",
+    "lesson": "src/slides/18.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Balance and Transfer",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/19",
+    "lesson": "src/slides/19.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Address Members",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/20",
+    "lesson": "src/slides/20.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/address-members.md"
   },{
     "title": "Solidity Types - Fixed-Size Byte Arrays",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/21",
+    "lesson": "src/slides/21.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Fixed-Size Byte Arrays - Operators",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/22",
+    "lesson": "src/slides/22.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Fixed-Size Byte Arrays - Members",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/23",
+    "lesson": "src/slides/23.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Types - Dinamically-Sized Byte Arrays",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/24",
+    "lesson": "src/slides/24.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Types - Function Types",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/25",
+    "lesson": "src/slides/25.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Types - Arrays",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/26",
+    "lesson": "src/slides/26.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Array Members - length",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/27",
+    "lesson": "src/slides/27.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Array Members - push",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/28",
+    "lesson": "src/slides/28.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Array Members - pop",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/29",
+    "lesson": "src/slides/29.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Types - Structs",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/30",
+    "lesson": "src/slides/30.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/structs.md"
   },{
     "title": "Structs - Mapping",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/31",
+    "lesson": "src/slides/31.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Structs - Copying from Memory to Storage",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/32",
+    "lesson": "src/slides/32.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Temporary Memory Structs",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/33",
+    "lesson": "src/slides/33.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Structs - Code Example",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/34",
+    "lesson": "src/slides/34.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Types - Mappings",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/35",
+    "lesson": "src/slides/35.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Mappings as Hash Tables",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/36",
+    "lesson": "src/slides/36.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "More about Mappings",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/37",
+    "lesson": "src/slides/37.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Mappings - Code Example",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/38",
+    "lesson": "src/slides/38.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Types - delete",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/39",
+    "lesson": "src/slides/39.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Global Variables - block",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/40",
+    "lesson": "src/slides/40.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Global Variables - msg",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/41",
+    "lesson": "src/slides/41.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Global Variables - tx",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/42",
+    "lesson": "src/slides/42.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Global Variables - this",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/43",
+    "lesson": "src/slides/43.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Global Variables - assert()",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/44",
+    "lesson": "src/slides/44.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Global Variables - require()",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/45",
+    "lesson": "src/slides/45.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Global Variables - revert()",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/46",
+    "lesson": "src/slides/46.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Solidity Global Variables - selfdestruct()",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/47",
+    "lesson": "src/slides/47.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": "src/info/main.md"
   },{
     "title": "Smart Contract Example - Hello World",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/48",
+    "lesson": "src/slides/49.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": ["https://gist.github.com/stupeters187/ca1a504fc252eb0f4053bfd4f4a7db94"]
   },{
     "title": "Smart Contract Example - Escrow",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/48",
+    "lesson": "src/slides/49.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": ["https://gist.github.com/stupeters187/e521f0f5bc940bd841a441957feb297e"]
   },{
     "title": "Smart Contract Example - Crowd Funding",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/48",
+    "lesson": "src/slides/49.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": ["https://gist.github.com/stupeters187/1dd90d8d0419e40faf6532c56de4ac31"]
   },{
     "title": "Smart Contract Example - Dashboard",
-    "lesson": "https://slides.com/ninabreznik/deck/embed/#/48",
+    "lesson": "src/slides/49.html",
     "tool": "https://play.ethereum.org/editor-solidity",
     "info": ["https://gist.github.com/ansermino/caa8f671ca255c605ab7b30742eb5e5e"]
   }
