@@ -22,22 +22,22 @@
   }, {
     "title": "Smart Contract Example - Hello World",
     "lesson": "src/slides/examples.pdf",
-    "tool": "https://play.ethereum.org/editor-solidity",
+    "tool": "https://playproject.io/editor-solidity/",
     "info": "src/info/hello-world.md"
   },{
     "title": "Smart Contract Example - Escrow",
     "lesson": "src/slides/examples.pdf",
-    "tool": "https://play.ethereum.org/editor-solidity",
+    "tool": "https://playproject.io/editor-solidity/",
     "info": "src/info/escrow.md"
   },{
     "title": "Smart Contract Example - Crowd Funding",
     "lesson": "src/slides/examples.pdf",
-    "tool": "https://play.ethereum.org/editor-solidity",
+    "tool": "https://playproject.io/editor-solidity/",
     "info": "src/info/crowd-funding.md"
   }
  ],
   "needs": [
-    "https://ninabreznik.github.io/play-workshop-chainsafe-blockchainbootcamp-smart-contracts/"
+    "https://ninabreznik.github.io/play-workshop-chainsafe-blockchainbootcamp-ethereum-focused/"
   ],
   "unlocks": [
   ]
