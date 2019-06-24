@@ -37,9 +37,7 @@
   }
  ],
   "needs": [
-    "https://ninabreznik.github.io/play-workshop-chainsafe-blockchainbootcamp-introduction/"
   ],
   "unlocks": [
-    "https://ninabreznik.github.io/play-workshop-chainsafe-blockchainbootcamp-smart-contracts/"
   ]
 }
